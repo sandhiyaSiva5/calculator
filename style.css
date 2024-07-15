@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 100vh;
+}
+
+#calcu{
+
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+h1{
+    padding: 0 5px ;
+    width: 95%;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    text-align: end;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+}
